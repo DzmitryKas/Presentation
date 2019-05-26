@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>History WWW/HTML/CSS </section>
+				<section>
+					<p>1960s General Markup Language (GML)</p>					
+						<p>
+								<img width="500" data-src="./img/GML.jpg" alt="GML">
+							</p>
+				</section>
+				<section>1990s "Internet people!"</section>
+				<section><h2>Timothy John  Berners-Lee</h2>
+					<img width="400" data-src="./img/LI.jpg" alt="GML">					
+				</section>
+				<section><h2>
+						First web site</h2>				
+					<img width="400" data-src="./img/www.jpg" alt="GML">
+				</section>
+				<section><p>1993 - HTML version 1.</p>
+					<p>The first HTML documents contained about 40 tags. These were text pages only.</p>
+					<img width="400" data-src="./img/html1.jpg" alt="GML">			
+				</section>
+				<section><p>1995 - HTML versions 2.0 and 3.0
+					</p>				
+					<img width="400" data-src="./img/html2.jpg" alt="GML">			
+				</section>
+				<section><p>December 17, 1996 - CSS</p>
+					<p>So, CSS system:</p>
+					<ul>
+						<li>does not depend on HTML,
+							</li>
+						<li>it has own syntax
+							</li>
+						<li>allows you to set parameters for any HTML tag.
+							</li>					
+					</ul>						
+				</section>
+				<section><p>December 18, 1997 - HTML versions 4.0 
+					</p>				
+					<img width="600" data-src="./img/html4.jpg" alt="GML">			
+				</section>
+				<section><p>HTML versions 5.0 
+					</p>				
+					<img width="600" data-src="./img/html5.jpg" alt="GML">			
+				</section>
+				<section>
+						<h2>Thank you!</h2>
+					</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
